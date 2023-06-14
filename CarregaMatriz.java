@@ -38,7 +38,7 @@ public class CarregaMatriz {
             case "9":
                 arquivo = new File("Mapas\\mapa500_1000.txt");
                 return arquivo;
-            case "0":
+            default:
                 System.exit(0);
         }
         return null;
