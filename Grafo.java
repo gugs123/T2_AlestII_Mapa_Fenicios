@@ -2,16 +2,10 @@ import java.util.ArrayList;
 
 public class Grafo {
 
-    //public boolean[][] matrizAdjacencia;
     public Vertice[] listaVertices;
     private Vertice[] listaPortos = new Vertice[9];
     ArrayList<Vertice> listaAdjacencia[];
-    /*public int obterIndiceVertice(String indice) {
-        for (int i = 0; i < totalVertices; i++) {
-            if(listaVertices[i].indice.equals(indice)) return i;
-        }
-        return -1;
-    }*/
+
     private int totalVertices;
     private int totalPortos;
     private int totalArestas;
