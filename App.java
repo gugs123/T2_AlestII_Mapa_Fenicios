@@ -4,7 +4,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         Grafo g = CarregaMatriz.leArquivo(CarregaMatriz.selecionaMapa());
         g = CarregaArestas.ligaArestas(g);
-        navegar(g);       
+        navegar(g);    
+        System.out.println("Tempo de execucao da carga do arquivo mapa ate o final: ");  
+        System.out.println(Temporizador.getClockSec() + " segundos");
         System.out.println("FIM!");
     }
 
