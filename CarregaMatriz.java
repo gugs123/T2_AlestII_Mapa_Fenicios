@@ -8,6 +8,7 @@ public class CarregaMatriz {
         Scanner in = new Scanner(System.in);
         String escolha = in.nextLine();
         in.close();
+        Temporizador.initClock(); //inicia temporizador
         System.out.println();
         File arquivo;
         switch(escolha){
